@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="385-lb-RTs">
+                                <rect key="frame" x="40" y="67" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="0NG-vZ-1Rb"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JQg-Hf-J5d">
+                                <rect key="frame" x="130" y="227" width="60" height="30"/>
+                                <state key="normal" title="连接设备"/>
+                                <connections>
+                                    <action selector="connectDevice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9op-Nx-K4z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRB-ph-Q8h">
+                                <rect key="frame" x="130" y="280" width="60" height="30"/>
+                                <state key="normal" title="选择图片"/>
+                                <connections>
+                                    <action selector="chooseImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xwl-n2-Ell"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hd1-yP-YOt">
+                                <rect key="frame" x="130" y="344" width="60" height="30"/>
+                                <state key="normal" title="发送图片"/>
+                                <connections>
+                                    <action selector="postImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G4I-tx-vWU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Hd1-yP-YOt" firstAttribute="top" secondItem="sRB-ph-Q8h" secondAttribute="bottom" constant="34" id="AgJ-1l-9ew"/>
+                            <constraint firstItem="sRB-ph-Q8h" firstAttribute="top" secondItem="JQg-Hf-J5d" secondAttribute="bottom" constant="23" id="BAH-ox-0Kw"/>
+                            <constraint firstItem="385-lb-RTs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="47" id="C40-qo-JuL"/>
+                            <constraint firstItem="JQg-Hf-J5d" firstAttribute="top" secondItem="385-lb-RTs" secondAttribute="bottom" constant="32" id="G7z-45-Gzo"/>
+                            <constraint firstItem="JQg-Hf-J5d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="In5-KY-Mfn"/>
+                            <constraint firstItem="385-lb-RTs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="QXb-A1-GKN"/>
+                            <constraint firstItem="Hd1-yP-YOt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cMn-6i-UT6"/>
+                            <constraint firstItem="sRB-ph-Q8h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nBw-Ph-32G"/>
+                            <constraint firstAttribute="trailing" secondItem="385-lb-RTs" secondAttribute="trailing" constant="40" id="sTo-Z0-5zt"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="showImageV" destination="385-lb-RTs" id="OiQ-WL-5xG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF79A9261CFD50EF0025CF52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF79A9251CFD50EF0025CF52 /* main.m */; };
+		CF79A9291CFD50EF0025CF52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF79A9281CFD50EF0025CF52 /* AppDelegate.m */; };
+		CF79A92C1CFD50EF0025CF52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF79A92B1CFD50EF0025CF52 /* ViewController.m */; };
+		CF79A92F1CFD50EF0025CF52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF79A92D1CFD50EF0025CF52 /* Main.storyboard */; };
+		CF79A9311CFD50EF0025CF52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF79A9301CFD50EF0025CF52 /* Assets.xcassets */; };
+		CF79A9341CFD50EF0025CF52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF79A9321CFD50EF0025CF52 /* LaunchScreen.storyboard */; };
+		CF79A93F1CFD50EF0025CF52 /* JSGameKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF79A93E1CFD50EF0025CF52 /* JSGameKitTests.m */; };
+		CF79A94A1CFD50EF0025CF52 /* JSGameKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF79A9491CFD50EF0025CF52 /* JSGameKitUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF79A93B1CFD50EF0025CF52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF79A9191CFD50EF0025CF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF79A9201CFD50EF0025CF52;
+			remoteInfo = JSGameKit;
+		};
+		CF79A9461CFD50EF0025CF52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF79A9191CFD50EF0025CF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF79A9201CFD50EF0025CF52;
+			remoteInfo = JSGameKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF79A9211CFD50EF0025CF52 /* JSGameKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSGameKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF79A9251CFD50EF0025CF52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF79A9271CFD50EF0025CF52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF79A9281CFD50EF0025CF52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF79A92A1CFD50EF0025CF52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF79A92B1CFD50EF0025CF52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF79A92E1CFD50EF0025CF52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF79A9301CFD50EF0025CF52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF79A9331CFD50EF0025CF52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF79A9351CFD50EF0025CF52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF79A93A1CFD50EF0025CF52 /* JSGameKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSGameKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF79A93E1CFD50EF0025CF52 /* JSGameKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSGameKitTests.m; sourceTree = "<group>"; };
+		CF79A9401CFD50EF0025CF52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF79A9451CFD50EF0025CF52 /* JSGameKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSGameKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF79A9491CFD50EF0025CF52 /* JSGameKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSGameKitUITests.m; sourceTree = "<group>"; };
+		CF79A94B1CFD50EF0025CF52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF79A91E1CFD50EF0025CF52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF79A9371CFD50EF0025CF52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF79A9421CFD50EF0025CF52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF79A9181CFD50EF0025CF52 = {
+			isa = PBXGroup;
+			children = (
+				CF79A9231CFD50EF0025CF52 /* JSGameKit */,
+				CF79A93D1CFD50EF0025CF52 /* JSGameKitTests */,
+				CF79A9481CFD50EF0025CF52 /* JSGameKitUITests */,
+				CF79A9221CFD50EF0025CF52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF79A9221CFD50EF0025CF52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF79A9211CFD50EF0025CF52 /* JSGameKit.app */,
+				CF79A93A1CFD50EF0025CF52 /* JSGameKitTests.xctest */,
+				CF79A9451CFD50EF0025CF52 /* JSGameKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF79A9231CFD50EF0025CF52 /* JSGameKit */ = {
+			isa = PBXGroup;
+			children = (
+				CF79A9271CFD50EF0025CF52 /* AppDelegate.h */,
+				CF79A9281CFD50EF0025CF52 /* AppDelegate.m */,
+				CF79A92A1CFD50EF0025CF52 /* ViewController.h */,
+				CF79A92B1CFD50EF0025CF52 /* ViewController.m */,
+				CF79A92D1CFD50EF0025CF52 /* Main.storyboard */,
+				CF79A9301CFD50EF0025CF52 /* Assets.xcassets */,
+				CF79A9321CFD50EF0025CF52 /* LaunchScreen.storyboard */,
+				CF79A9351CFD50EF0025CF52 /* Info.plist */,
+				CF79A9241CFD50EF0025CF52 /* Supporting Files */,
+			);
+			path = JSGameKit;
+			sourceTree = "<group>";
+		};
+		CF79A9241CFD50EF0025CF52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF79A9251CFD50EF0025CF52 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF79A93D1CFD50EF0025CF52 /* JSGameKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF79A93E1CFD50EF0025CF52 /* JSGameKitTests.m */,
+				CF79A9401CFD50EF0025CF52 /* Info.plist */,
+			);
+			path = JSGameKitTests;
+			sourceTree = "<group>";
+		};
+		CF79A9481CFD50EF0025CF52 /* JSGameKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF79A9491CFD50EF0025CF52 /* JSGameKitUITests.m */,
+				CF79A94B1CFD50EF0025CF52 /* Info.plist */,
+			);
+			path = JSGameKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF79A9201CFD50EF0025CF52 /* JSGameKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF79A94E1CFD50F00025CF52 /* Build configuration list for PBXNativeTarget "JSGameKit" */;
+			buildPhases = (
+				CF79A91D1CFD50EF0025CF52 /* Sources */,
+				CF79A91E1CFD50EF0025CF52 /* Frameworks */,
+				CF79A91F1CFD50EF0025CF52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSGameKit;
+			productName = JSGameKit;
+			productReference = CF79A9211CFD50EF0025CF52 /* JSGameKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF79A9391CFD50EF0025CF52 /* JSGameKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF79A9511CFD50F00025CF52 /* Build configuration list for PBXNativeTarget "JSGameKitTests" */;
+			buildPhases = (
+				CF79A9361CFD50EF0025CF52 /* Sources */,
+				CF79A9371CFD50EF0025CF52 /* Frameworks */,
+				CF79A9381CFD50EF0025CF52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF79A93C1CFD50EF0025CF52 /* PBXTargetDependency */,
+			);
+			name = JSGameKitTests;
+			productName = JSGameKitTests;
+			productReference = CF79A93A1CFD50EF0025CF52 /* JSGameKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF79A9441CFD50EF0025CF52 /* JSGameKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF79A9541CFD50F00025CF52 /* Build configuration list for PBXNativeTarget "JSGameKitUITests" */;
+			buildPhases = (
+				CF79A9411CFD50EF0025CF52 /* Sources */,
+				CF79A9421CFD50EF0025CF52 /* Frameworks */,
+				CF79A9431CFD50EF0025CF52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF79A9471CFD50EF0025CF52 /* PBXTargetDependency */,
+			);
+			name = JSGameKitUITests;
+			productName = JSGameKitUITests;
+			productReference = CF79A9451CFD50EF0025CF52 /* JSGameKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF79A9191CFD50EF0025CF52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CF79A9201CFD50EF0025CF52 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CF79A9391CFD50EF0025CF52 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF79A9201CFD50EF0025CF52;
+					};
+					CF79A9441CFD50EF0025CF52 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF79A9201CFD50EF0025CF52;
+					};
+				};
+			};
+			buildConfigurationList = CF79A91C1CFD50EF0025CF52 /* Build configuration list for PBXProject "JSGameKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF79A9181CFD50EF0025CF52;
+			productRefGroup = CF79A9221CFD50EF0025CF52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF79A9201CFD50EF0025CF52 /* JSGameKit */,
+				CF79A9391CFD50EF0025CF52 /* JSGameKitTests */,
+				CF79A9441CFD50EF0025CF52 /* JSGameKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF79A91F1CFD50EF0025CF52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF79A9341CFD50EF0025CF52 /* LaunchScreen.storyboard in Resources */,
+				CF79A9311CFD50EF0025CF52 /* Assets.xcassets in Resources */,
+				CF79A92F1CFD50EF0025CF52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF79A9381CFD50EF0025CF52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF79A9431CFD50EF0025CF52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF79A91D1CFD50EF0025CF52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF79A92C1CFD50EF0025CF52 /* ViewController.m in Sources */,
+				CF79A9291CFD50EF0025CF52 /* AppDelegate.m in Sources */,
+				CF79A9261CFD50EF0025CF52 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF79A9361CFD50EF0025CF52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF79A93F1CFD50EF0025CF52 /* JSGameKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF79A9411CFD50EF0025CF52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF79A94A1CFD50EF0025CF52 /* JSGameKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF79A93C1CFD50EF0025CF52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF79A9201CFD50EF0025CF52 /* JSGameKit */;
+			targetProxy = CF79A93B1CFD50EF0025CF52 /* PBXContainerItemProxy */;
+		};
+		CF79A9471CFD50EF0025CF52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF79A9201CFD50EF0025CF52 /* JSGameKit */;
+			targetProxy = CF79A9461CFD50EF0025CF52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF79A92D1CFD50EF0025CF52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF79A92E1CFD50EF0025CF52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF79A9321CFD50EF0025CF52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF79A9331CFD50EF0025CF52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF79A94C1CFD50F00025CF52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF79A94D1CFD50F00025CF52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF79A94F1CFD50F00025CF52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSGameKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.JSGameKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF79A9501CFD50F00025CF52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSGameKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.JSGameKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF79A9521CFD50F00025CF52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSGameKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.JSGameKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSGameKit.app/JSGameKit";
+			};
+			name = Debug;
+		};
+		CF79A9531CFD50F00025CF52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSGameKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.JSGameKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSGameKit.app/JSGameKit";
+			};
+			name = Release;
+		};
+		CF79A9551CFD50F00025CF52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSGameKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.JSGameKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSGameKit;
+			};
+			name = Debug;
+		};
+		CF79A9561CFD50F00025CF52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSGameKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.JSGameKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSGameKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF79A91C1CFD50EF0025CF52 /* Build configuration list for PBXProject "JSGameKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF79A94C1CFD50F00025CF52 /* Debug */,
+				CF79A94D1CFD50F00025CF52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF79A94E1CFD50F00025CF52 /* Build configuration list for PBXNativeTarget "JSGameKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF79A94F1CFD50F00025CF52 /* Debug */,
+				CF79A9501CFD50F00025CF52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF79A9511CFD50F00025CF52 /* Build configuration list for PBXNativeTarget "JSGameKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF79A9521CFD50F00025CF52 /* Debug */,
+				CF79A9531CFD50F00025CF52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF79A9541CFD50F00025CF52 /* Build configuration list for PBXNativeTarget "JSGameKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF79A9551CFD50F00025CF52 /* Debug */,
+				CF79A9561CFD50F00025CF52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF79A9191CFD50EF0025CF52 /* Project object */;
+}
