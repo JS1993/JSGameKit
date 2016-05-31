@@ -84,7 +84,7 @@
 #pragma mark--GKPeerPickerControllerDelegate
 
 - (void)peerPickerController:(GKPeerPickerController *)picker didSelectConnectionType:(GKPeerPickerConnectionType)type {
-    
+    NSLog(@"%s %d",__func__,__LINE__);
 }
 
 
@@ -107,7 +107,7 @@
      *  setDataReceiveHandler: 由哪个对象来监听数据的接受
      *  withContext ： 监听需要传递的参数
      */
-    [session setDataReceiveHandler:session withContext:nil];
+    [session setDataReceiveHandler:self withContext:nil];
     
     [self.peerPickerController dismiss];
     
