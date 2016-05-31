@@ -69,6 +69,11 @@
 }
 
 - (IBAction)postImage:(id)sender {
+    
+    if (!self.showImageV.image) {
+        return;
+    }
+    
     NSData* imageData=UIImagePNGRepresentation(self.showImageV.image);
     
     /**
